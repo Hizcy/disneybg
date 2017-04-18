@@ -1,0 +1,15 @@
+E:\GY迪士尼后台\fenxiaopingtai\fenxiao\BLL\bin\Debug\BLL.dll
+E:\GY迪士尼后台\fenxiaopingtai\fenxiao\BLL\bin\Debug\BLL.pdb
+E:\GY迪士尼后台\fenxiaopingtai\fenxiao\BLL\bin\Debug\DAL.dll
+E:\GY迪士尼后台\fenxiaopingtai\fenxiao\BLL\bin\Debug\Entity.dll
+E:\GY迪士尼后台\fenxiaopingtai\fenxiao\BLL\bin\Debug\Utils.dll
+E:\GY迪士尼后台\fenxiaopingtai\fenxiao\BLL\bin\Debug\log4net.dll
+E:\GY迪士尼后台\fenxiaopingtai\fenxiao\BLL\bin\Debug\Memcached.ClientLibrary.dll
+E:\GY迪士尼后台\fenxiaopingtai\fenxiao\BLL\bin\Debug\Newtonsoft.Json.Net35.dll
+E:\GY迪士尼后台\fenxiaopingtai\fenxiao\BLL\bin\Debug\ICSharpCode.SharpZipLib.dll
+E:\GY迪士尼后台\fenxiaopingtai\fenxiao\BLL\bin\Debug\DAL.pdb
+E:\GY迪士尼后台\fenxiaopingtai\fenxiao\BLL\bin\Debug\Entity.pdb
+E:\GY迪士尼后台\fenxiaopingtai\fenxiao\BLL\bin\Debug\Utils.pdb
+E:\GY迪士尼后台\fenxiaopingtai\fenxiao\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+E:\GY迪士尼后台\fenxiaopingtai\fenxiao\BLL\obj\Debug\BLL.dll
+E:\GY迪士尼后台\fenxiaopingtai\fenxiao\BLL\obj\Debug\BLL.pdb

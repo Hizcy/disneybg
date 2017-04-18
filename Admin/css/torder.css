@@ -1,0 +1,9 @@
+﻿
+.m-orderlist {}
+.m-search_order{margin-bottom:2%; padding:2%; padding-right:10%; border-bottom:1px solid #ddd; position:relative;}
+.m-search_order .group_btn{position:absolute; bottom:10%; right:1%;}
+.m-search_order .searchitem{ display:inline-block; margin-right:2%; margin-bottom:10px;}
+.m-orderlist .t_lft { text-align:left; line-height:1.8em;}.m-orderlist .t_rt { text-align:right;line-height:1.6em;}
+.m-orderlist hr { margin:0.4em ;}
+.m-orderlis table td a{  width: 90%;  display: inline-block;}
+.btn_hide{display:none}

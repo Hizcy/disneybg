@@ -1,0 +1,11 @@
+﻿  #editor-trigger {
+            height: 400px;
+            /*max-height: 500px;*/
+        }
+.container {
+    width: 1084px;
+    margin: 0 127px;
+    margin-top: -12px;
+    position: relative;
+    height: 400px;
+}

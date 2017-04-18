@@ -1,0 +1,131 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <!--[if lt IE 9]>
+    <script src="js/html5.js"></script>
+    <![endif]-->
+    <script src="/js/jquery.js"></script>
+    <script src="/js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="/js/common.js"></script>
+
+    <asp:ContentPlaceHolder ID="header" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <!--header-->
+    <header>
+        <h1>
+            <img src="/images/admin_logo.png" /></h1>
+        <ul class="rt_nav">
+
+            <li><a href="/logout.aspx" class="quit_icon">安全退出</a></li>
+        </ul>
+    </header>
+
+    <!--aside nav-->
+    <aside class="lt_aside_nav content mCustomScrollbar">
+        <h2><a href="/">起始页</a></h2>
+        <ul>
+            <li>
+                <dl>
+                    <dt>商品管理</dt>
+                    <!--当前链接则添加class:active-->
+                    <dd><a href="/product/proList.aspx" class="active">商品列表</a></dd>
+                    <dd><a href="/product/cateList.aspx">商品分类</a></dd>
+                    <dd><a href="/Tproduct/t_proList.aspx">组团商品列表</a></dd>
+                </dl>
+            </li>
+            <li>
+                <dl>
+                    <dt>订单信息</dt>
+                    <dd><a href="/order/orderList.aspx">订单列表</a></dd>
+                    <dd><a href="/Torder/TorderList.aspx">组团订单列表</a></dd>
+                </dl>
+            </li>
+            <li>
+                <dl>
+                    <dt>会员管理</dt>
+
+                    <dd><a href="/user/userApply.aspx">申请审核</a></dd>
+                    <dd><a href="/user/userList.aspx">代理列表</a></dd>
+                </dl>
+            </li>
+            <li>
+                <dl>
+                    <dt>提现管理</dt>
+
+                    <dd><a href="/config/tixianList.aspx">提现列表</a></dd>
+                </dl>
+            </li>
+            <li>
+                <dl>
+                    <dt>配置管理</dt>
+
+                    <dd><a href="/config/roleList.aspx">角色管理</a></dd>
+                    <dd><a href="/config/yonglist.aspx">分佣规则</a></dd>
+                    <dd><a href="/config/roleyonglist.aspx">套餐分佣</a></dd>
+                    <dd><a href="/config/site.aspx">站点属性</a></dd>
+                </dl>
+            </li>
+            <li>
+                <dl>
+                    <dt>图片管理</dt>
+                    <dd><a href="/Torder/LBImg.aspx">设置轮播图</a></dd>
+                </dl>
+            </li>
+            <li>
+                <p class="btm_infor">© 星辰大海</p>
+            </li>
+        </ul>
+    </aside>
+
+    <section class="rt_wrap content mCustomScrollbar">
+        <div class="rt_content">
+            <form runat="server">
+
+                <asp:ContentPlaceHolder ID="mainContent" runat="server">
+                </asp:ContentPlaceHolder>
+            </form>
+        </div>
+    </section>
+    <script>
+        var curpage = location.href.substr(location.href.lastIndexOf('/') + 1).split(".")[0];
+        $(".lt_aside_nav").find("a").each(function () {
+            // debugger;
+            if ($(this).attr("href").search(curpage) >= 0) {
+                $(".lt_aside_nav").find("a").removeClass("active");
+                $(this).addClass("active");
+                return false;
+            }
+        });
+    </script>
+    <section class="loading_area" id="mask_Tips">
+        <div class="loading_cont">
+            <div class="loading_icon"><i></i><i></i><i></i><i></i><i></i></div>
+            <div class="loading_txt"><mark>
+                <p>数据正在加载，请稍后！</p>
+            </mark></div>
+        </div>
+    </section>
+    <section class="pop_bg" id="dlg_Confirm">
+        <div class="pop_cont">
+            <!--title-->
+            <h3>提示</h3>
+            <div class="pop_cont_text">
+                这里是文字性提示信息！
+            </div>
+            <!--bottom:operate->button-->
+            <div class="btm_btn">
+                <input type="button" value="确认" class="input_btn trueBtn" />
+                <input type="button" value="关闭" class="input_btn falseBtn" />
+            </div>
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1B86E703-021A-406A-9434-B5C99CB3C92E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Entity</RootNamespace>
+    <AssemblyName>Entity</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Activity.cs" />
+    <Compile Include="Address.cs" />
+    <Compile Include="Apply.cs" />
+    <Compile Include="Article.cs" />
+    <Compile Include="ArticleCls.cs" />
+    <Compile Include="AttrSKU.cs" />
+    <Compile Include="AttrValueSKU.cs" />
+    <Compile Include="Bank.cs" />
+    <Compile Include="Carts.cs" />
+    <Compile Include="Location.cs" />
+    <Compile Include="OrderExt.cs" />
+    <Compile Include="Orders.cs" />
+    <Compile Include="OrdersItem.cs" />
+    <Compile Include="OrdersItemExt.cs" />
+    <Compile Include="ProductCls.cs" />
+    <Compile Include="ProductExt.cs" />
+    <Compile Include="Products.cs" />
+    <Compile Include="ProductSKU.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Roles.cs" />
+    <Compile Include="ShufflingImg.cs" />
+    <Compile Include="T_AttrSKU.cs" />
+    <Compile Include="T_AttrValueSKU.cs" />
+    <Compile Include="T_Orders.cs" />
+    <Compile Include="T_OrdersItem.cs" />
+    <Compile Include="T_Products.cs" />
+    <Compile Include="T_ProductSKU.cs" />
+    <Compile Include="WalletLog.cs" />
+    <Compile Include="wx_Config.cs" />
+    <Compile Include="wx_Fans.cs" />
+    <Compile Include="wx_Fenxiao.cs" />
+    <Compile Include="wx_OpenInfo.cs" />
+    <Compile Include="wx_RoleFenxiao.cs" />
+    <Compile Include="wx_Shop.cs" />
+    <Compile Include="wx_Shop_User.cs" />
+    <Compile Include="wx_Tuiguang.cs" />
+    <Compile Include="wx_UserExt.cs" />
+    <Compile Include="wx_Users.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

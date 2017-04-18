@@ -1,0 +1,11 @@
+E:\GY迪士尼后台\fenxiaopingtai\fenxiao\GroupStatusUpdate\bin\Debug\GroupStatusUpdate.exe.config
+E:\GY迪士尼后台\fenxiaopingtai\fenxiao\GroupStatusUpdate\bin\Debug\GroupStatusUpdate.exe
+E:\GY迪士尼后台\fenxiaopingtai\fenxiao\GroupStatusUpdate\bin\Debug\GroupStatusUpdate.pdb
+E:\GY迪士尼后台\fenxiaopingtai\fenxiao\GroupStatusUpdate\bin\Debug\Utils.dll
+E:\GY迪士尼后台\fenxiaopingtai\fenxiao\GroupStatusUpdate\bin\Debug\log4net.dll
+E:\GY迪士尼后台\fenxiaopingtai\fenxiao\GroupStatusUpdate\bin\Debug\Memcached.ClientLibrary.dll
+E:\GY迪士尼后台\fenxiaopingtai\fenxiao\GroupStatusUpdate\bin\Debug\Newtonsoft.Json.Net35.dll
+E:\GY迪士尼后台\fenxiaopingtai\fenxiao\GroupStatusUpdate\bin\Debug\ICSharpCode.SharpZipLib.dll
+E:\GY迪士尼后台\fenxiaopingtai\fenxiao\GroupStatusUpdate\bin\Debug\Utils.pdb
+E:\GY迪士尼后台\fenxiaopingtai\fenxiao\GroupStatusUpdate\obj\Debug\GroupStatusUpdate.exe
+E:\GY迪士尼后台\fenxiaopingtai\fenxiao\GroupStatusUpdate\obj\Debug\GroupStatusUpdate.pdb

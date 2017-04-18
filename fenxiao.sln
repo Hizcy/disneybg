@@ -1,0 +1,94 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entity", "Entity\Entity.csproj", "{1B86E703-021A-406A-9434-B5C99CB3C92E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{1C3E908D-DE9C-4732-860A-C6AFEA4DB68D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{C4B3504D-12C2-4CCB-BDA5-B3418751F826}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Admin", "http://localhost:4067", "{0CD1ABF7-3C51-4B1D-9D18-335F8E7BA09E}"
+	ProjectSection(WebsiteProperties) = preProject
+		SccProjectName = "SAK"
+		SccAuxPath = "SAK"
+		SccLocalPath = "SAK"
+		SccProvider = "SAK"
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{c4b3504d-12c2-4ccb-bda5-b3418751f826}|BLL.dll;{1C3E908D-DE9C-4732-860A-C6AFEA4DB68D}|DAL.dll;{1b86e703-021a-406a-9434-b5c99cb3c92e}|Entity.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_4067"
+		Debug.AspNetCompiler.PhysicalPath = "Admin\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_4067\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_4067"
+		Release.AspNetCompiler.PhysicalPath = "Admin\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_4067\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "Admin\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GroupStatusUpdate", "GroupStatusUpdate\GroupStatusUpdate.csproj", "{F17B6215-B1E6-4BB4-BC76-F40B15EF3933}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://120.27.105.138:8080/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Entity\\Entity.csproj
+		SccProjectName1 = Entity
+		SccLocalPath1 = Entity
+		SccProjectUniqueName2 = DAL\\DAL.csproj
+		SccProjectName2 = DAL
+		SccLocalPath2 = DAL
+		SccProjectUniqueName3 = BLL\\BLL.csproj
+		SccProjectName3 = BLL
+		SccLocalPath3 = BLL
+		SccWebProject4 = true
+		SccProjectUniqueName4 = http://localhost:4067
+		SccProjectName4 = Admin
+		SccLocalPath4 = Admin
+		SccProjectEnlistmentChoice4 = 2
+		SccProjectUniqueName5 = GroupStatusUpdate\\GroupStatusUpdate.csproj
+		SccProjectName5 = GroupStatusUpdate
+		SccLocalPath5 = GroupStatusUpdate
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B86E703-021A-406A-9434-B5C99CB3C92E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B86E703-021A-406A-9434-B5C99CB3C92E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B86E703-021A-406A-9434-B5C99CB3C92E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B86E703-021A-406A-9434-B5C99CB3C92E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C3E908D-DE9C-4732-860A-C6AFEA4DB68D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C3E908D-DE9C-4732-860A-C6AFEA4DB68D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C3E908D-DE9C-4732-860A-C6AFEA4DB68D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C3E908D-DE9C-4732-860A-C6AFEA4DB68D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4B3504D-12C2-4CCB-BDA5-B3418751F826}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4B3504D-12C2-4CCB-BDA5-B3418751F826}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4B3504D-12C2-4CCB-BDA5-B3418751F826}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4B3504D-12C2-4CCB-BDA5-B3418751F826}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CD1ABF7-3C51-4B1D-9D18-335F8E7BA09E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CD1ABF7-3C51-4B1D-9D18-335F8E7BA09E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CD1ABF7-3C51-4B1D-9D18-335F8E7BA09E}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CD1ABF7-3C51-4B1D-9D18-335F8E7BA09E}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{F17B6215-B1E6-4BB4-BC76-F40B15EF3933}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F17B6215-B1E6-4BB4-BC76-F40B15EF3933}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F17B6215-B1E6-4BB4-BC76-F40B15EF3933}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F17B6215-B1E6-4BB4-BC76-F40B15EF3933}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
